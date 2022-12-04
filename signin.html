@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: linear-gradient(0deg, rgb(196, 214, 221),rgb(149, 186, 201)) 
+        }
+
+        .signin-form {
+            width: 318px;
+            height: 460px;
+            padding: 20px;
+            margin: 4% auto;
+            text-align: center;
+            border: 1px solid blue;
+            box-shadow: 3px 3px 5px 3px rgb(111, 121, 185);
+            border-radius: 5px;
+            font-family: 'Secular One', sans-serif;
+            background: white;
+
+        }
+
+        .signin-form h1 {
+            color: rgba(48, 86, 211);
+            text-transform: capitalize;
+
+        }
+
+        .input-box {
+            width: 290px;
+            /* height: 30px; */
+            border: 1px solid rgb(45, 179, 232);
+            border-radius: 25px;
+            padding: 10px;
+            margin: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-family: 'Secular One', sans-serif;
+
+        }
+
+        #signbtn {
+            width: 290px;
+            background-color: rgba(48, 86, 211);
+            border-radius: 25px;
+            padding: 10px;
+            margin-top: 30px;
+            color: white;
+            font-family: 'Secular One', sans-serif;
+        }
+
+        hr {
+            color: blue;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        #sign-google {
+            width: 290px;
+            color: rgba(48, 86, 211);
+            border-radius: 25px;
+            padding: 10px;
+            margin-top: 30px;
+            color: white;
+            font-family: 'Secular One', sans-serif;
+
+        }
+
+        .icons {
+            width: 300px;
+            margin: 10px;
+        }
+
+        .fbicon {
+            width: 35px;
+
+        }
+
+        .linkdin-icon {
+            width: 35px;
+        }
+
+        .google-icon {
+            width: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signin-form">
+        <h1>sign in </h1>
+
+        <form action="#">
+            <input type="email" class="input-box" placeholder="enter your email">
+            <input type="password" class="input-box" placeholder="enter your passward">
+            <p> <span><input type="checkbox" id="checkbox"></span> i agree to the terms and conditions</p>
+
+            <button id="signbtn">sign in</button>
+
+            <hr>
+
+            <!-- <button id="sign-google">google</button> -->
+            <div class="icons">
+
+                <a href="https://www.facebook.com/"> <img class="fbicon" src="fbicon.png" alt=""></a>
+                <img class="google-icon" src="google_social_icon.png" alt="">
+                <a href="https://www.linkedin.com">  <img class="linkdin-icon" src="linkdinicon.png" alt=""></a>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
